@@ -98,13 +98,12 @@ set visualbell             " shut the fuck up
 set autoindent             " automatic indent new lines
 set smartindent            " be smart about it
 set nowrap                 " do not wrap lines
-set softtabstop=2          " yep, two
-set shiftwidth=2           " ..
+set softtabstop=4          " yep, two
+set shiftwidth=4           " ..
 set tabstop=4
 set expandtab              " expand tabs to spaces
 set nosmarttab             " fuck tabs
 set formatoptions+=n       " support for numbered/bullet lists
-set textwidth=80           " wrap at 80 chars by default
 set virtualedit=block      " allow virtual edit in visual block ..
 
 " ----------------------------------------------------------------------------
