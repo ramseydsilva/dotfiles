@@ -1,3 +1,7 @@
+execute pathogen#infect()
+syntax on
+filetype plugin indent on
+
 " ---------------------------------------------------------------------------
 " General
 " ---------------------------------------------------------------------------
@@ -11,10 +15,6 @@ set viminfo='1000,f1,:100,@100,/20
 set modeline                          " make sure modeline support is enabled
 set autoread                          " reload files (no local changes only)
 set tabpagemax=50                     " open 50 tabs max
-
-call pathogen#infect()
-syntax on
-filetype plugin indent on
 
 " ---------------------------------------------------------------------------
 " Colors / Theme
