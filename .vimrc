@@ -297,3 +297,5 @@ map <C-K> <C-W>k<C-W>_
 nmap <c-h> <c-w>h<c-w><Bar>0
 nmap <c-l> <c-w>l<c-w><Bar>0
 map cc :CtrlP<enter>
+
+let NERDTreeDirArrows=0
