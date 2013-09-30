@@ -289,13 +289,10 @@ command! -nargs=0 Xe !chmod +x %
 
 " Custom added by ramsey
 
-set wmh=0
-set wmw=20
-
 map <C-J> <C-W>j<C-W>_
 map <C-K> <C-W>k<C-W>_
-nmap <c-h> <c-w>h<c-w><Bar>0
-nmap <c-l> <c-w>l<c-w><Bar>0
+nmap <c-h> <c-w>h<c-w>
+nmap <c-l> <c-w>l<c-w>
 map cc :CtrlP<enter>
 
 let NERDTreeDirArrows=0
