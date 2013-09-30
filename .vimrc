@@ -295,4 +295,5 @@ nmap <c-h> <c-w>h<c-w>
 nmap <c-l> <c-w>l<c-w>
 map cc :CtrlP<enter>
 
+let mapleader= ","
 let NERDTreeDirArrows=0
