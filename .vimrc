@@ -212,6 +212,9 @@ map ,dt :tabnew %:h/<CR>
 
 " open gf under cursor in new tab
 map ,f :tabnew <cfile><CR>
+map pt :tabprev<CR>
+map gt :tabnext<CR>
+
 
 " open tag under cursor in new tab
 map <C-\> :tab split<CR>:exec("tag ".expand("<cword>"))<CR>
@@ -293,7 +296,7 @@ map <C-J> <C-W>j<C-W>_
 map <C-K> <C-W>k<C-W>_
 nmap <c-h> <c-w>h<c-w>
 nmap <c-l> <c-w>l<c-w>
-map cc :CtrlP<enter>
+map cp :CtrlP<enter>
 
 let mapleader= ","
 let NERDTreeDirArrows=0
