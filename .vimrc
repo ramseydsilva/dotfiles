@@ -302,3 +302,7 @@ let mapleader= ","
 let NERDTreeDirArrows=0
 
 map <Leader>n <plug>NERDTreeTabsToggle<CR>
+set hidden
+
+map gj g*
+map gk g#
