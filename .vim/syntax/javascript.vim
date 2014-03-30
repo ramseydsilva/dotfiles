@@ -163,9 +163,6 @@ if exists("b:javascript_fold")
       " Fold setting
       " Redefine the foldtext (to show a JS function outline) and foldlevel
       " only if the entire buffer is JavaScript, but not if JavaScript syntax
-      " is embedded in another syntax (e.g. HTML).
-      setlocal foldmethod=syntax
-      setlocal foldlevel=4
     endif
 else
     syntax keyword javaScriptFunction       function
