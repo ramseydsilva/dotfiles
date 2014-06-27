@@ -10,8 +10,8 @@ cd dotfiles
 git submodule init
 git submodule update
 cd ~
-ln -s .vim ~/.vim
-ln -s .vimrc ~/.vimrc
+ln -s dotfiles/.vim .vim
+ln -s dotfiles/.vimrc .vimrc
 ```
 
 Fini
