@@ -47,7 +47,7 @@ highlight StatusLine      ctermbg=Black ctermfg=LightGrey
 "   Highlight Trailing Whitespace
 " ----------------------------------------------------------------------------
 
-set list listchars=trail:.,tab:>.
+set list listchars=trail:.,tab:\|\ 
 highlight SpecialKey ctermfg=DarkGray ctermbg=Black
 
 " ----------------------------------------------------------------------------
