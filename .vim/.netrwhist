@@ -1,5 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
-let g:netrw_dirhist_1='/home/ramsey/projects/vc/site/videocluster/userinfo/migrations'
-let g:netrw_dirhist_2='/home/vagrant/projects/NodeBB/public/src/forum/topic'
-let g:netrw_dirhist_3='/home/vagrant/projects/nulogy/nupricer/test'
