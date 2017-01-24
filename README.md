@@ -19,5 +19,5 @@ ln -s ~/dotfiles/.vimrc .vimrc
 ln -s ~/dotfiles/.config/* .config/.
 sudo ln -s ~/dotfiles/bin/* /usr/bin/.
 cd .vim/bundle/YouCompleteMe
-./install.py --clang-completer
+./install.py --all
 ```

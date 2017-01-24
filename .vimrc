@@ -332,3 +332,7 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_enable_signs=1
 let g:syntastic_check_on_wq = 0
+
+let g:ycm_server_python_interpreter = "/usr/bin/python2"
+let g:ycm_add_preview_to_completeopt = 0
+let g:ycm_autoclose_preview_window_after_insertion = 1
