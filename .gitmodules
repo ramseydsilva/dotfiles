@@ -19,3 +19,9 @@
 [submodule ".config/awesome"]
 	path = .config/awesome
 	url = https://github.com/ramseydsilva/awesome-config
+[submodule ".vim/bundle/syntastic.git"]
+	path = .vim/bundle/syntastic.git
+	url = git@github.com:vim-syntastic/syntastic.git
+[submodule ".vim/bundle/YouCompleteMe.git"]
+	path = .vim/bundle/YouCompleteMe.git
+	url = git@github.com:Valloric/YouCompleteMe.git

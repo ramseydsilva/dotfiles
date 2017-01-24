@@ -1,7 +1,11 @@
 dotfiles
 ========
 
-Really simple
+1. Install vim from source with python support: https://github.com/Valloric/YouCompleteMe/wiki/Building-Vim-from-source
+1. Install go: `sudo apt-get install golang`
+1. Set $GOPATH in ~/.profile or ~/.bashrc
+
+1. Clone
 
 ```
 cd ~
@@ -13,4 +17,5 @@ cd ~
 ln -s ~/dotfiles/.vim .vim
 ln -s ~/dotfiles/.vimrc .vimrc
 ln -s ~/dotfiles/.config/* .config/.
-```
+cd .vim/bundle/YouCompleteMe
+./install.py --clang-completer
