@@ -336,3 +336,12 @@ let g:syntastic_check_on_wq = 0
 let g:ycm_server_python_interpreter = "/usr/bin/python2"
 let g:ycm_add_preview_to_completeopt = 0
 let g:ycm_autoclose_preview_window_after_insertion = 1
+
+nnoremap <Leader>d :%s/<c-v><c-m>/\r/g<CR>
+
+" To fold and unfold for python
+set foldmethod=indent
+set foldnestmax=2
+nnoremap <space> za
+"vnoremap <space> zf
+let python_highlight_all=1
