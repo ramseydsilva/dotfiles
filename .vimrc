@@ -345,3 +345,6 @@ set foldnestmax=2
 nnoremap <space> za
 "vnoremap <space> zf
 let python_highlight_all=1
+
+nnoremap <Leader>gtd :YcmCompleter GoToDeclaration<CR>
+nnoremap <Leader>gtr :YcmCompleter GoToReferences<CR>
