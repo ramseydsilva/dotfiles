@@ -1,6 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_cnt =5
 let g:netrw_dirhist_1='/home/ramsey/projects/isac/src/server/.git'
 let g:netrw_dirhist_2='/home/ramsey/projects/isac/bin'
 let g:netrw_dirhist_3='/home/ramsey/projects/isac/src/server/server'
 let g:netrw_dirhist_4='/home/ramsey/projects/isac/src/server/server/fixtures'
+let g:netrw_dirhist_5='/home/rdsilva/dotfiles/.git/modules'
