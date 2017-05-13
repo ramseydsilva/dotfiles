@@ -404,5 +404,5 @@ nnoremap S :grep! "\b<C-R><C-W>\b"<CR>:cw<CR>
  nnoremap \ :Ag<SPACE>
 
 
-nnoremap <F2> zj
-nnoremap <F3> zk
+nnoremap t zj
+nnoremap y zk
