@@ -405,4 +405,4 @@ nnoremap S :grep! "\b<C-R><C-W>\b"<CR>:cw<CR>
 
 
 nnoremap t zj
-nnoremap y zk
+nnoremap 6 zk

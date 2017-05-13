@@ -109,6 +109,7 @@ if ! shopt -oq posix; then
 fi
 
 # added by Miniconda3 4.3.11 installer
-export PATH="/home/ramsey/miniconda3/bin:$PATH"
+export PATH="~/dotfiles/bin:~/miniconda3/bin:$PATH"
 
 export TERM=gnome-256color
+
