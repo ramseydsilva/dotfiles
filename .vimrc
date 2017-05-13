@@ -29,8 +29,8 @@ let g:solarized_contrast="normal" " normal|high|low contrast
 let g:solarized_visibility="low" " normal|high|low effect on whitespace characters
 
 set background=dark
-colorscheme solarized
-" colorscheme PaperColor
+" colorscheme solarized
+colorscheme PaperColor
 
 " ---------------------------------------------------------------------------
 "  Highlight
