@@ -20,20 +20,17 @@ set tabpagemax=50                     " open 50 tabs max
 " Colors / Theme
 " ---------------------------------------------------------------------------
 
-if &t_Co > 2 || has("gui_running")
-  if has("terminfo")
-    set t_Co=16
-    set t_AB=[%?%p1%{8}%<%t%p1%{40}%+%e%p1%{92}%+%;%dm
-    set t_AF=[%?%p1%{8}%<%t%p1%{30}%+%e%p1%{82}%+%;%dm
-  else
-    set t_Co=16
-    set t_Sf=[3%dm
-    set t_Sb=[4%dm
-  endif
-  syntax on
-  set hlsearch
-  colorscheme slate2
-endif
+let g:solarized_termcolors=256 " color depth
+let g:solarized_termtrans=0 " 1|0 background transparent
+let g:solarized_bold=1 " 1|0 show bold fonts
+let g:solarized_italic=1 " 1|0 show italic fonts
+let g:solarized_underline=1 " 1|0 show underlines
+let g:solarized_contrast="normal" " normal|high|low contrast
+let g:solarized_visibility="low" " normal|high|low effect on whitespace characters
+
+set background=dark
+colorscheme solarized
+" colorscheme PaperColor
 
 " ---------------------------------------------------------------------------
 "  Highlight
@@ -177,8 +174,8 @@ let g:LookupFile_ShowFiller = 0                  " fix menu flashiness
 let g:LookupFile_PreservePatternHistory = 1      " preserve sorted history?
 let g:LookupFile_PreserveLastPattern = 0         " start with last pattern?
 
-nmap <unique> <silent> <D-f> <Plug>LookupFile
-imap <unique> <silent> <D-f> <C-O><Plug>LookupFile
+" nmap <unique> <silent> <D-f> <Plug>LookupFile
+" imap <unique> <silent> <D-f> <C-O><Plug>LookupFile
 
 " ----------------------------------------------------------------------------
 "  PATH on MacOS X
@@ -285,8 +282,8 @@ let g:rails_subversion=1
 let g:rails_menu=2
 
 " make file executable
-command -nargs=* Xe !chmod +x <args>
-command! -nargs=0 Xe !chmod +x %
+" command -nargs=* Xe !chmod +x <args>
+" command! -nargs=0 Xe !chmod +x %
 
 
 
@@ -403,5 +400,9 @@ endif
 nnoremap S :grep! "\b<C-R><C-W>\b"<CR>:cw<CR>
 
 " bind \ (backward slash) to grep shortcut
-command -nargs=+ -complete=file -bar Ag silent! grep! <args>|cwindow|redraw!
-nnoremap \ :Ag<SPACE>
+" command -nargs=+ -complete=file -bar Ag silent! grep! <args>|cwindow|redraw!
+ nnoremap \ :Ag<SPACE>
+
+
+nnoremap <F2> zj
+nnoremap <F3> zk
