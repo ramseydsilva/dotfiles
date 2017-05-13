@@ -20,3 +20,17 @@ cd dotfiles
    init.sh && ./init.sh --all`.
 
 Note: Needs cmake (~v3.8) compatible with python 3.
+
+
+Shortcuts
+=========
+
+Vim
+---
+
+- :set scb!
+
+- zt # set line to top
+
+- <c-w> =  # Set splits to same size
+- <leader> -  # Minimize current split

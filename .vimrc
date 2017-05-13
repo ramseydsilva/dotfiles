@@ -393,3 +393,6 @@ nnoremap S :grep! "\b<C-R><C-W>\b"<CR>:cw<CR>
 
 nnoremap t zj
 nnoremap 6 zk
+
+nnoremap <silent> == :vertical resize +25<CR>
+nnoremap <silent> -- :vertical resize -25<CR>
