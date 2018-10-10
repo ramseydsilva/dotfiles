@@ -19,11 +19,11 @@ then
 else
     echo "Installing You complete me"
     cd /usr/local/src
-    wget https://cmake.org/files/v3.8/cmake-3.8.1.tar.gz
-    tar -xvzf cmake-3.8.1.tar.gz
-    cd cmake-3.8.1
-    ./bootstrap
-    make
+    sudo wget https://cmake.org/files/v3.13/cmake-3.13.0-rc1.tar.gz
+    sudo tar -xvzf cmake-3.8.1.tar.gz
+    cd cmake-3.13.0-rc1
+    sudo ./bootstrap
+    sudo make
     sudo make install
     ~/dotfiles/.vim/bundle/YouCompleteMe.git/install.py --all
 fi
