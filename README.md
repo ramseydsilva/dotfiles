@@ -20,10 +20,10 @@ Install vim
 -----------
 1. Install vim from source with python support: https://github.com/Valloric/YouCompleteMe/wiki/Building-Vim-from-source
 
-1. 
+1.
 ```
 cd ~
-git clone https://github.com/ramseydsilva/dotfiles
+git clone git@github.com:ramseydsilva/dotfiles.git
 cd dotfiles
 ```
 
