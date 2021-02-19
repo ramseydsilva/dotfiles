@@ -28,5 +28,5 @@ else
     ./bootstrap
     make
     make install
-    .vim/bundle/YouCompleteMe.git/install.py --all
+    $dir/.vim/bundle/YouCompleteMe.git/install.py --all
 fi
