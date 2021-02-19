@@ -128,9 +128,11 @@ bind '"\e[B": history-search-forward'
 # export TERM=gnome-256color
 # export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
-export PATH="~/dotfiles/bin:$PATH"
-export PATH="~/miniconda3/bin:$PATH"
+export PATH="~/projects/dotfiles/bin:$PATH"
 
+# conda
+. /opt/conda/etc/profile.d/conda.sh
+conda activate base
 
 # Add custom stuff here
 if [ -f ~/.bash_custom ]; then
