@@ -138,3 +138,5 @@ conda activate base
 if [ -f ~/.bash_custom ]; then
     . ~/.bash_custom
 fi
+
+export GPG_TTY=$(tty)
