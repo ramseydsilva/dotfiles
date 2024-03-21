@@ -359,6 +359,11 @@ let g:ycm_add_preview_to_completeopt = 0
 let g:ycm_autoclose_preview_window_after_insertion = 1
 let g:ycm_goto_buffer_command = 'new-tab'
 
+" Go to next and previous errors
+let g:ycm_always_populate_location_list = 1
+map wn :lnext<enter>
+map wp :lprev<enter>
+
 nnoremap <Leader>d :%s/<c-v><c-m>/\r/g<CR>
 
 " To fold and unfold for python
